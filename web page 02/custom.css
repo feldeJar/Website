@@ -1,0 +1,78 @@
+/*Desktop*/
+@media only screen and (min-width: 1200px){
+    .formBox{
+        position: absolute;
+        top: 75px;
+        right: 1%;
+        width: 300px;
+        height: 100px;
+        
+    }
+    .form-horizontal{
+        width: 300px;
+        margin-right: -15px;
+        margin-left: -15px;
+     
+    }
+    .form-group{
+        margin-right: -15px;
+        margin-left: -15px;
+        margin-bottom: 5px;
+    
+    }
+    .col-md-6.col-md-offset-3{
+    width: 300px;
+    }
+    .col-md-offset-3{
+        margin-left: 0%;
+    }
+    .col-lg-10{
+        float: right;
+        width: 100%;
+        padding-right: 15px;
+
+    }
+    label.col-lg-2.control-label{
+        width: 300px;
+        text-align: right;
+    }
+}
+/*Tablet */
+@media only screen and (min-width: 500px) and (max-width: 1199px) {
+   .formBox{
+        position: absolute;
+       right: 1%;
+       width: 300px;
+       height: 100px;
+        
+    }
+    .form-horizontal{
+        width: 300px;     
+    }
+    .form-group{
+        align-content: center;
+        margin-right: -15px;
+        margin-left: -15px;
+        margin-bottom: 5px;
+    
+    }
+    .col-md-6.col-md-offset-3{
+    padding-left: 0px;
+    width: 300px;
+    }
+    .col-md-offset-3{
+        margin-left: 0%;
+    }
+    .col-lg-10{
+        float: right;
+        width: 100%;
+        padding-right: 10px;
+
+    }
+    label.col-lg-2.control-label{
+        width: 300px;
+        font-size: 1.2em;
+        text-align: right;
+    }
+}
+

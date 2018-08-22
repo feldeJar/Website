@@ -1,0 +1,44 @@
+
+body{
+    background-size: cover;
+    background-color: black;
+    
+    
+}
+h1{
+    font-size: 60px;
+    color:gold;
+    font-family:serif;
+    text-align: center;
+}
+h2,h3{
+    font-size: 25px;
+    color:gold;
+    text-align: center;
+}
+h4{
+    font-size: 16px;
+    color: gold;
+    text-align: center;
+}
+h5{
+    font-size: 28;
+    color:gold;
+    text-align: center;
+    font-family: fantasy;
+}
+td.table{
+    color: gold;
+    font-size: 28px;
+    font-family: monospace;
+}
+div.standard{
+    font-size: 28px;
+    color:gold;
+}
+div.fancy{
+    padding: 120px;
+    color:gold;
+    font-family: cursive;
+    text-align: center;
+}

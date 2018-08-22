@@ -1,0 +1,348 @@
+
+h1{
+    font-size:1.0em;
+    padding-top: 1.0em;
+    padding-left:.5em;
+    text-align:left;
+    color:white;
+    width:40%;
+} 
+h2,h3{
+    border-bottom: .2em dashed black;
+    padding-left: 2%;
+    padding-top:3%;
+    padding-bottom: 0%;
+}
+h4{
+    padding-top:10%;
+    text-align: center;
+}
+h5{
+    padding: 0%;
+    text-align: center;
+
+}
+body{
+     margin: 0px;
+    background-color:rgb(89, 89, 89);
+}
+.containerAtTop {
+    padding-top:10px;
+    position: relative;
+    width: 100%;
+    height: 0%;
+    padding-bottom: 35%;
+}
+.videoAtTop {
+    position:absolute;
+    top: 30%;
+    left: 15%;
+    width: 70%;
+    height: 130%;
+}
+.videoTitle{
+    z-index: -1;
+    position:relative;
+    text-align: center;
+    padding-top: 30%;
+    padding-bottom: 10%;
+}
+.videos{
+    height: 65%;
+    width: 100%;
+}
+.videosContainer{
+    float: inherit;
+    width:90%;
+    padding-bottom: 0%;
+    padding-top: 5%;
+    padding-left: 5%;
+    height:350px;
+    
+}
+.info{
+    padding-top 0%;
+    border: .1em solid black;
+    border-radius: 20px;
+    font-size: 1.0em;
+    padding-left: 2%;
+}
+#arrowLink{
+    color: black;
+    float:right;
+    padding-top: 0%;
+    padding-bottom: 100%;
+    font-size: 1.0em;
+    width: 10.0em;
+}
+/*Desktop*/
+@media only screen and (min-width: 980px) {
+        /*remove Mobile elements*/
+        #Mobile{
+        display:none;
+        }
+     body{
+        background-color: white;
+         margin-left: 0%;
+         margin-right: 5%;
+    }
+    h2{
+        border-bottom: .2em dashed black;
+        padding-top:50%;
+        width: 80%;
+        margin-left: 10%;
+}
+    h3{
+        border-bottom: .2em dashed black;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .band{
+        background-color:white;
+        width: 100%;
+        height: 3%;
+        float: left;
+    }
+    #bandContainer{
+        background-color:white;
+        position: absolute;
+        top:2%;
+        left: 15%;
+        width: 30%;
+    }
+    .fa {
+  padding: 12px;
+  width: 20px;
+        height: 20px;
+  text-align: center;
+  border-radius: 30%;
+}
+    .fa:hover {
+    opacity: 0.7;
+}
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+        font-size:1em;
+
+}
+    .overlayFacebook{
+        position: absolute;
+        top: 25px;
+        right: 5%;
+        font-size: 20px;
+    }
+    .fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+    .overlayYoutube{
+        position: absolute;
+        top: 25px;
+        right: 10%;
+        font-size: 25px;
+        
+    }
+    .fa-instagram {
+  background: #125688;
+  color: white;
+}
+    .overlayInsta{
+        position: absolute;
+        top: 25px;
+        right: 15%;
+        font-size: 25px;
+    }
+    .vertical-menu {
+        z-index: 1;
+        position:sticky;
+        top:0;
+        width: 10%;
+} 
+    .vertical-menu a {
+        z-index: 1;
+    color: black;
+    width: 0%;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+    .containerAtTop {
+        z-index: -1;
+        position:absolute;
+        left:12%;
+        top:20%;
+    width: 45%;
+    padding-bottom: 35%;
+}
+    .videoAtTop {
+    top: 15%;
+    left: 0%;
+    width: 100%;
+    height: 70%;
+}
+    .topVideoInfo{
+        z-index: -1;
+        background-color:aliceblue;
+        position:absolute;
+        right:10%;
+        top:35%;
+    width: 30%;
+    padding-bottom: 0%;
+        
+    }
+    #arrowLink{
+    float:right;
+    padding-right: 5%;
+    padding-top:0%;
+    padding-bottom: 10%;
+    font-size: 1.0em;
+    width: 12.0em;
+        }
+    .videos{
+    height: 80%;
+    width: 45%;
+}
+    .videosContainer{
+     margin-left: 10%;
+    width:90%;
+    padding:0;
+    }
+}
+/*Mobile*/
+@media only screen and (max-width: 979px) {
+        /* remove Desktop elements*/
+    #desktop{
+            display: none;
+        }
+    .band{
+        width: 45%;
+        height: 5%;
+        float: right;
+    }
+    #menu{
+        width: 100%;
+        position:sticky;
+        top:0;
+        background-color: white;
+        z-index: 1;
+        }
+    .navWords{
+        padding-top: 10px;
+        height: 85%;
+        width: 100%;
+    }
+    .overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(128, 128, 128);
+    overflow-y: hidden;
+    transition: .8s;
+}
+    .overlay-content {
+    float: right;
+    position: relative;
+    top: 13%;
+    width: 50%;
+    padding-right: 15px;
+    text-align: right;
+}
+    .overlay a {
+    padding-top: 0%;
+    text-decoration:none;
+    font-size: 2.4em;
+    color: white;
+    display:block;
+    transition: 0.3s;
+}
+    .overlayFacebook{
+        position: absolute;
+        top: 300px;
+        float: left;
+        right: 35px;
+        font-size: 12px;
+    }
+    .overlayYoutube{
+        position: absolute;
+        top: 300px;
+        float: left;
+        right: 125px;
+        font-size: 12px;
+        
+    }
+    .overlayInsta{
+        position: absolute;
+        top: 300px;
+        float: left;
+        right: 75px;
+        font-size: 12px;
+    }
+    .overlay .closebtn {
+    z-index: 100;
+    position: absolute;
+    color: white;
+    top: 0%;
+    width: 100%;
+    right: 0%;
+    text-align: left;
+    padding-right: 0%;
+    padding-bottom: 0%;
+    font-size: 3em;
+}
+    .navClose{
+        color:white;
+        font-family: serif;
+        font-size: .43em;
+        position: absolute;
+        top: 20px;
+        left: 40px;
+    }
+    .titleMenu{
+      color:white;
+        font-family: serif;
+        font-size: 1.2em;
+        position: absolute;
+        top: 35%;
+        left: 40px;  
+    }
+    .navBand{
+        position: absolute;
+        top: 12px;
+        right: 20px;
+        width: 35%;
+        height: 55%;
+        
+        
+    }
+}
+/*Tablet */
+@media only screen and (min-width: 500px) and (max-width: 979px) {
+         body{
+            background-color: green;
+        }
+        .videos{
+            padding: 0%;
+    height: 100%;
+    width: 100%;
+}
+        .videosContainer{
+    text-align: center;
+    float: left;
+    width:46%;
+    padding:2%;
+    padding-bottom: 10%;
+    height:300px;
+    
+}
+        #arrowLink{
+    float:right;
+    padding-top:0%;
+    padding-bottom: 0%;
+    font-size: 1.04em;
+    width: 12.0em;
+        }
+    }
